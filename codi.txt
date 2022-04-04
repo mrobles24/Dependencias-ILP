@@ -1,0 +1,4 @@
+ST (R5) R5 2
+JMP 2 - -
+
+ADD R4 R4 R4
