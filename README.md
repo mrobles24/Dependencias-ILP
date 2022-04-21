@@ -1,3 +1,5 @@
+
+------ ESP ------
 # Dependencias-ILP
 Detector de Dependencias en un código ensamblador
 
@@ -21,3 +23,15 @@ Notas:
 - También se pueden usar comas para separar registros.
 - Se pueden cargar en el programa los archivos de prueba "codiX.txt"
 - Para más información, consúltese la documentación del código con el autor.
+
+<br>
+<br>
+<br>
+
+------ ENG ------
+# ILP-Dependencies
+Dependency detector in an assembly languaje code
+
+This program reads from a file wich contains an assembly code provided by the user, analizing its lexic and sintax to find any possible errors. Once that is completed, it analizes all RAW, WAR and WAW dependencies between the code's instructions.
+
+
