@@ -32,6 +32,23 @@ Notas:
 # ILP-Dependencies
 Dependency detector in an assembly languaje code
 
-This program reads from a file wich contains an assembly code provided by the user, analizing its lexic and sintax to find any possible errors. Once that is completed, it analizes all RAW, WAR and WAW dependencies between the code's instructions.
+This program reads from a file which contains an assembly code provided by the user, analizing its lexic and sintax to find any possible errors. Once that is completed, it analizes all RAW, WAR and WAW dependencies between the code's instructions.
+
+Remarks:
+- Valid Instructions for the assembly languaje:
+     · ADD RX RX RX
+     · SUB RX RX RX
+     · MUL RX RX RX
+     · DIV RX RX RX
+     · LD RX (RX) -
+     · ST (RX) RX -
+     · JMP X - -
+     · LABEL X - -
+     
+     Where X is a number between [0..9].
+ 
+- You can also use commas "," to separate registers.
+- You can load the files "codiX.txt" to try some example code.
+- For more information, contact the author to check for the proper paperwork.
 
 
