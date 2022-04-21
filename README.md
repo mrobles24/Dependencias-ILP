@@ -19,4 +19,5 @@ Notas:
      Donde X es un número entre [0..9].
  
 - También se pueden usar comas para separar registros.
-- Para más información, consúltese la documentación del código.
+- Se pueden cargar en el programa los archivos de prueba "codiX.txt"
+- Para más información, consúltese la documentación del código con el autor.
